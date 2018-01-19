@@ -4,11 +4,12 @@
 
   <item
     android:id="@+id/action_settings"
-    android:title="Settings"
+    android:title="@string/menu_title_settings"
     app:showAsAction="never" />
 
-  <item android:title="Search"
+  <item
     android:id="@+id/action_search"
-    app:showAsAction="ifRoom"
-    android:icon="@drawable/ic_search_white_24dp"/>
+    android:icon="@drawable/ic_search_white_24dp"
+    android:title="@string/menu_search_title"
+    app:showAsAction="ifRoom" />
 </menu>
